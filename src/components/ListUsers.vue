@@ -5,8 +5,8 @@
         {{ usuario.nombre }} - {{ usuario.email }}
       </div>
       <div class="AccionesBotones">
-        <button @click="startEditing(usuario)" class="button edit">Editar</button>
-        <button @click="removeUser(usuario.id)" class="button delete">Eliminar</button>
+        <button @click="startEditing(usuario)" class="btn edit">Editar</button>
+        <button @click="removeUser(usuario.id)" class="btn delete">Eliminar</button>
       </div>
     </li>
   </ul>

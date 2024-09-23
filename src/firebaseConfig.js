@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
+  apiKey: import.meta.env.VITE_API_KEY, //se importa la variable de entorno para poder usarla en el archivo .env y proteger la key de la api
   authDomain: "desafio-crud-3fa79.firebaseapp.com",
   projectId: "desafio-crud-3fa79",
   storageBucket: "desafio-crud-3fa79.appspot.com",
